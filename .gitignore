@@ -26,6 +26,9 @@ _testmain.go
 # WebStorm
 *.iml
 
+# Visual Studio Code
+.vscode/
+
 # Directory-based project format:
 .idea/
 .idea/workspace.xml
