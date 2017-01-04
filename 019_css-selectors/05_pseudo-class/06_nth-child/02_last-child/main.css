@@ -1,0 +1,11 @@
+body{
+    font-size: 36px;
+}
+
+li:last-child{
+    color: red;
+}
+
+ul:last-child{
+    background-color: yellow;
+}
