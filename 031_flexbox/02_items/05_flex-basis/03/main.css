@@ -1,0 +1,27 @@
+/* flex container */
+body{
+    display: flex;
+    border: 5px solid red;
+}
+
+/*flex items*/
+div {
+    height: 100px;
+    border: 2px solid red;
+    width: 400px;
+    flex-basis: auto;
+    /*
+    the above two lines are the same as:
+    flex-basis: 400px;
+    */
+}
+
+.flex1 {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.flex2 {
+    flex-shrink: 8;
+    flex-grow: 8;
+}

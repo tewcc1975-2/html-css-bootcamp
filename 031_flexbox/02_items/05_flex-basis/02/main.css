@@ -1,0 +1,26 @@
+/* flex container */
+body{
+    display: flex;
+}
+
+/*flex items*/
+div {
+    height: 100px;
+    flex-basis: 33%;
+    border: 2px solid red;
+}
+
+/* flex-basis always sets the width */
+/* the three flex-items in this example are always 33% each */
+/* flex-grow & flex-shrink do nothing */
+
+
+.flex1 {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.flex2 {
+    flex-grow: 2;
+    flex-shrink: 8;
+}

@@ -1,0 +1,30 @@
+/* flex container */
+body{
+    display: flex;
+}
+
+/*flex items*/
+div {
+    height: 100px;
+    flex-basis: 400px;
+    border: 2px solid red;
+}
+
+.flex1 {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.flex2 {
+    flex-shrink: 8;
+    flex-grow: 8;
+}
+
+/*
+The three div flex items each want to be 400px wide.
+
+If the flex container is greater than 1200px, flex-grow kicks in.
+
+If the flex container is less than 1200px, flex-shrink kicks in.
+
+*/

@@ -1,0 +1,24 @@
+/* flex container */
+body{
+    display: flex;
+    /*formatting*/
+    border: 5px solid red;
+}
+
+/*flex items*/
+div {
+    flex: 0 1 auto;
+    /* flex-grow, flex-shrink, flex-basis */
+    /*formatting*/
+    height: 100px;
+    width: 400px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#wahoo {
+    flex: 0 2 auto;
+    /* flex-grow, flex-shrink, flex-basis */
+}

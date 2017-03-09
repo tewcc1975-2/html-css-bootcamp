@@ -1,0 +1,18 @@
+/* flex container */
+body{
+    display: flex;
+}
+
+/*flex items*/
+div {
+    height: 100px;
+    border: 2px solid red;
+}
+
+.flex1 {
+    flex-grow: 1;
+}
+
+.flex2 {
+    flex-grow: 2;
+}
